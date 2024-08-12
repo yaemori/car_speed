@@ -45,7 +45,7 @@ For the best experience, use a Miniconda environment:
     ```
 
 ### Troubleshooting
-- **Missing Libraries: ** I could not test from empty environment but if you are missing libraries just pip install them as the promptshell suggests if still missing you can get online help or ask gpt :)
+- **Missing Libraries:** I could not test from empty environment but if you are missing libraries just pip install them as the promptshell suggests if still missing you can get online help or ask gpt :)
 - **File Locations:** Keep all necessary files in the same directory and update file paths in your code as needed. [Example Image](https://github.com/user-attachments/assets/2a1fb4c0-c56a-4f76-ba70-9d19c7589e24)
 - **KMP DUPLICATE Error:** If you encounter this error, check `roadson.py`, which is the main Python file to run.
 - **DLL Errors:** Create a new Conda environment and reinstall the requirements. Ensure that the version of PyTorch is compatible with your GPU and CUDA version.
