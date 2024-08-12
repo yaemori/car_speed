@@ -1,14 +1,59 @@
 
-# car_detection-speed
-Car Detection with YOLOv7 then using paddleOCR to read plates
 
-To use the code, I strongly recommend using miniconda environment and its prompt shell.
+---
 
-What code does it, we have the trained data model with cars and car labels. It gets their x y coordinates and using paddle OCR reads the plate writes it and check the car and car's label's speed in every 3 frames. This is a project we did in our free time in internship company.
+# Car Detection with YOLOv7 and PaddleOCR
 
-You will need to download  requirements.txt in both files then download any missing libraries. 
+This project involves detecting cars using YOLOv7 and reading their license plates using PaddleOCR. It also calculates and reports the speed of detected cars and their labels every 3 frames.
 
-Problems you might encounter:
--If you encounter with KMP DUPLICATE error, check roadson.py thats the main python file to run.
--If you see something about DLL error. I strongly create new conda environment and download requirements first. Also you will need torch version compitable with your gpu cuda. You will see it while downloading the requirements.
+## Setup Instructions
 
+To get started, follow these steps:
+
+### 1. Set Up Your Environment
+
+For the best experience, use a Miniconda environment:
+
+1. **Create a new Conda environment:**
+    ```bash
+    conda create -n car_detection python=3.8
+    ```
+
+2. **Activate the environment:**
+    ```bash
+    conda activate car_detection
+    ```
+
+### 2. Install Dependencies
+
+1. **Download `requirements.txt`:** This file lists all the required libraries.
+2. **Install the libraries:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+### 3. Download and Place Files
+
+- Ensure all files are in the same directory for ease of access.
+- Update file paths in your code as needed.
+
+### 4. Run the Code
+
+1. **Execute the main script:**
+    ```bash
+    python roadson.py
+    ```
+
+### Troubleshooting
+- **Missing Libraries: ** I could not test from empty environment but if you are missing libraries just pip install them as the promptshell suggests if still missing you can get online help or ask gpt :)
+- **File Locations:** Keep all necessary files in the same directory and update file paths in your code as needed. [Example Image](https://github.com/user-attachments/assets/2a1fb4c0-c56a-4f76-ba70-9d19c7589e24)
+- **KMP DUPLICATE Error:** If you encounter this error, check `roadson.py`, which is the main Python file to run.
+- **DLL Errors:** Create a new Conda environment and reinstall the requirements. Ensure that the version of PyTorch is compatible with your GPU and CUDA version.
+
+### Test Run
+
+For a demonstration of how to run the code properly, watch this video: [Test Run Video](https://youtu.be/FW_o0xQEuyo)
+
+---
+
+Feel free to adjust any specific details to better fit your project or personal preferences!
