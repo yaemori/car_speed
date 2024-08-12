@@ -40,8 +40,10 @@ For the best experience, use a Miniconda environment:
 ### 4. Run the Code
 
 1. **Execute the main script:**
+
+   I suggest using nosave option unless you want to save the result, you can check more parsers in roadson.py 
     ```bash
-    python roadson.py
+    python roadson.py --view-img --nosave
     ```
 
 ### Troubleshooting
